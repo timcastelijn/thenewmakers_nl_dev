@@ -1,0 +1,175 @@
+/*
+ Theme Name:   twentyseventeen-child
+ Theme URI:    http://example.com/twentyseventeen-child/
+ Description:  twentyseventeen-child Theme
+ Author:       Tim Castelijn
+ Author URI:   http://example.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentyseventeen-child
+*/
+
+
+.custom-header{
+  display: none;
+}
+
+.navigation-top{
+  top: 0;
+}
+
+.site-info { display: none; }
+
+.site-navigation-fixed{
+  display: none;
+}
+.navigation-top{
+  border: 0px;
+}
+.navigation-top a{
+  color: #767676;
+}
+.navigation-top a:hover{
+  color: #F0CF1C;
+}
+
+.navigation-top .current_page_item a{
+  color: #F0CF1C;
+}
+
+
+.entry-header{
+  display:none;
+}
+
+#comments{
+  display: none;
+}
+
+.site-footer{
+  margin-top:0px;
+}
+
+/*white bar below menu*/
+.site-content .wrap{
+  padding-top: 0 !important;
+}
+
+/*page bacground color*/
+.site-content .panel-content{
+  background: #44413F; /*grey */
+}
+
+/*center content*/
+.entry-content{
+  width:100% !important;
+  float: left !important;
+}
+
+.panel-grid{
+  margin-bottom: 0 !important;
+}
+
+/*.row-columns .row{
+  display: flex !important;
+  justify-content: center !important;
+}*/
+
+
+.main-image .widget_media_image{
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.row-columns h3{
+  font-weight: bold !important;
+}
+
+
+.background-grey{
+  color:white;
+  background: #44413F; /*grey */
+}
+
+.background-grey h3{
+  color: #F0CF1C; /*yellow */
+}
+
+.side-title h3{
+  font-size:3em;
+  color:white;
+  margin-bottom: 0px;
+}
+
+.side-title-grey h3{
+  color: #44413F; /*grey */
+}
+
+.widget_text{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+/*backgrond white
+headers grey*/
+
+.background-white{
+  color:#44413F;
+  background: #ffffff;
+}
+
+.background-white h3{
+  color:#44413F;
+}
+
+
+
+#post-grid-274 {
+    padding: 0px !important;
+}
+
+#post-grid-274 img{
+  object-fit: cover;
+  object-position: center;
+  min-width: 100%;
+  max-width: none;
+  height: 190px
+}
+
+
+/*#post-grid-274 .layer-media a, #post-grid-274 .layer-media a:hover, #post-grid-274 .layer-media a:active{*/
+#post-grid-274 .layer-media a{
+  width:100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.post-title{
+  color: white;
+  font-size: 2em;
+}
+.post-title h3{
+  color: white;
+  font-size: 2em;
+}
+
+@media screen and (min-width: 48em){
+  .site-content .wrap{
+    padding-top: 3.5em !important;
+  }
+
+  .main-image{
+    min-height:100vh;
+  }
+
+  .side-title h3{
+    transform: rotate(90deg);
+    position: absolute;
+    right: 20px;
+  }
+}
